@@ -1,0 +1,13 @@
+tipos de variaveis
+
+number {float, int, infinity, NaN='not a number'}
+string {cadeias de caracteres. mesmo de java, python}
+boolean {true, false}
+underfined {valores indefinidos}
+object {null, array}
+
+function {funções}
+
+para saber que tipo é um determinado valor basta usar a função = typeof variavel
+
+
