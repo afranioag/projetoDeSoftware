@@ -19,8 +19,10 @@
     <script>
         window.alert("Um alerta")
         window.confirm("esta gostando do curso")
-        var nome = window.prompt("Qual seu nome?")
-        window.alert(nome)
+        var idadeSua = window.prompt("Qual sua idade")
+        var idadePai = window.prompt("Qual a idade do seu pai")
+        var dif = Number.parseInt(idadePai) + Number.parseInt(idadeSua)
+        document.write(`a diferença de idade entre vc e seu pai é ${dif}`)
     </script>
 </body>
 </html>

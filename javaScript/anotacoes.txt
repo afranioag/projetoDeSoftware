@@ -10,4 +10,25 @@ function {funções}
 
 para saber que tipo é um determinado valor basta usar a função = typeof variavel
 
+para conversão de valores
 
+var numero = window.pronpt("informe um numero") // dessa forma o javaSc ira tratar de acordo com a operação vc fizer
+//porem se vc usar o "+" ele ira concatenar mesmo que seja dois valores.
+
+
+entao para tornar inteiro.
+var numero = Number.parseInt(window.pronpt())
+ou
+var numero = Number(window.pronpt()) // assim ele ira tratar de acordo com o dado passado. int ou float
+
+para string
+
+var numero = String(window.pronpt())
+ou
+var numero = parseInt(window.pronpt())
+numero.tostring()
+
+
+para colocar um valor dentro de uma string
+nome = "maria"
+document.write(`vai juntar essa stringo o nome ${nome}`) // para usar essa formatação, é preciso usar crase ``
