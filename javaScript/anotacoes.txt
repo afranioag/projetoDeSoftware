@@ -32,3 +32,22 @@ numero.tostring()
 para colocar um valor dentro de uma string
 nome = "maria"
 document.write(`vai juntar essa stringo o nome ${nome}`) // para usar essa formatação, é preciso usar crase ``
+
+arrays: let nomeVariavel = [] // inicializa vazio
+
+arrays: let nomeVariavel = [1,2,3] // inicializa com valores
+
+nomeVariavel.push(valor) // adiciona um elemento ao final do array
+
+nomeVariavel.length // tamanho do array, sem parentese mesmo, pois é um atributo e n metodo
+nomeVariavel.sort() // ordena
+
+para usar o forEach
+
+ex: let lista = [1,2,3]
+for(let variavel in lista){
+console.log(variavel) } // vai exibir cada elemento da lista
+
+lista.indexOf(valor) // retorna o indice onde esta o valor
+
+

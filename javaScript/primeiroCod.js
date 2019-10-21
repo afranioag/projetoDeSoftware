@@ -15,8 +15,10 @@ function cria_disciplina(id, nome){
 	let dis = {}
 	dis.id = id;
 	dis.nome = nome;
-	pessoa = cria_pessoa("joan")
-	console.log(pessoa.fale())	
+	pessoa = cria_pessoa("joan")  // fazendo uso da funcao criada a cima
+	console.log(pessoa.fale())
+
+	for()
 
 	dis.dados = function(){return dis.id +" id; " + dis.nome +" nome"}
 	return dis
