@@ -26,3 +26,4 @@ function cria_disciplina(id, nome){
 
 d = cria_disciplina(021, "prog")
 console.log(d.dados())
+
